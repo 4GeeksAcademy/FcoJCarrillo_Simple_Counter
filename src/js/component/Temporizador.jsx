@@ -49,7 +49,6 @@ setInterval(() => {
     const centenasContador = Math.floor(counter/100);
     const decenasContador = Math.floor(counter/10);
     const unidadesContador = Math.floor(counter/1);
-    console.log(centenasDeMilContador,decenasDeMilContador,unidadesDeMilContador,centenasContador,decenasContador,unidadesContador);
     counter++;
     ReactDOM.render(<Temporizador unidades={unidadesContador} decenas={decenasContador}
     centenas={centenasContador} unidadesDeMil={unidadesDeMilContador} decenasDeMil={decenasDeMilContador} centenasDeMil={centenasDeMilContador}
